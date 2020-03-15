@@ -1,0 +1,189 @@
+body{
+  font-family: 'Catamaran', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lilita One', sans-serif;
+}
+
+ p {
+   color: #8f8f8f;
+ }
+
+ .big-heading{
+   color: white;
+   font-family: 'Lilita One', sans-serif;
+   font-size: 4rem;
+   line-height: 1.5;
+ }
+
+ .container-fluid {
+   padding: 7% 15%;
+ }
+
+ .coloured-section {
+   background-color: #ff4C68;
+   color: #fff;
+ }
+
+.white-section {
+  background-color: #fff;
+}
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7% ;
+  text-align: left;
+}
+
+.lOgO {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  padding: 0 0 4.5rem;
+}
+
+.rotated {
+  transform: rotateZ(25deg);
+  padding-top: 50px;
+  padding: 1.7rem;
+  width: 60%;
+  position: absolute;
+  left: 100px;
+}
+
+.nav-item{
+  padding: 15px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: 'Montsserat';
+}
+
+/*Download buttons*/
+.btn {
+  margin: 5% 3% 5% 0%;
+}
+
+.C-P-D {
+  padding-bottom: 55px;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.check-circle {
+  padding: 5%;
+}
+
+
+
+.fa-4x{
+  color: #ef8172;
+  margin-bottom: 6%;
+}
+
+.fa-4x:hover{
+  color: #ff4C68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+ .testimonial-text {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.card-header {
+  padding: 0px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+ font-size: 3rem;
+ line-height: 1.5rem;
+}
+
+.dog-name {
+  font-size: 1.5rem;
+}
+
+.plan-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#cta {
+  height: 300px;
+}
+
+#footer {
+  color: grey;
+  height: 150px;
+  padding-top: 80px;
+}
+
+.social-icon{
+  color: black;
+  margin: 8px;
+}
+
+@media (max-width: 1227px) {
+  #cta {
+    height: 400px;
+  }
+  #title {
+    text-align: center;
+  }
+  .rotated {
+    position: static;
+    transform: rotate(0)
+  }
+  h2 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+}
